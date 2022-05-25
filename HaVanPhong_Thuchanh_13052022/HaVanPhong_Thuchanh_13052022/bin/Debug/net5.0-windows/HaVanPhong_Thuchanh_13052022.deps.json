@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HaVanPhong_Thuchanh_13052022/1.0.0": {
+        "runtime": {
+          "HaVanPhong_Thuchanh_13052022.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HaVanPhong_Thuchanh_13052022/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿<Window x:Class="HaVanPhong_Thuchanh_13052022.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HaVanPhong_Thuchanh_13052022"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="0,0,200,0">
+            <TextBox x:Name="tvMaCuon" HorizontalAlignment="Left" Margin="259,67,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tvTenSach" HorizontalAlignment="Left" Margin="259,117,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tvTheLoai" HorizontalAlignment="Left" Margin="259,217,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Button Content="Close" HorizontalAlignment="Left" Margin="254,318,0,0" VerticalAlignment="Top" Width="65" FontSize="14" Click="Button_Click_2"/>
+            <Label Content="Ma cuon&#xD;&#xA;" HorizontalAlignment="Left" Height="27" Margin="177,67,0,0" VerticalAlignment="Top" Width="54"/>
+            <Label Content="Ten sach&#xD;&#xA;" HorizontalAlignment="Left" Height="27" Margin="177,112,0,0" VerticalAlignment="Top" Width="54"/>
+            <Label Content="So trang&#xD;&#xA;" HorizontalAlignment="Left" Height="27" Margin="177,161,0,0" VerticalAlignment="Top" Width="54"/>
+            <Label Content="The loai" HorizontalAlignment="Left" Height="27" Margin="177,212,0,0" VerticalAlignment="Top" Width="54"/>
+            <Label Content="NXB" HorizontalAlignment="Left" Height="27" Margin="177,261,0,0" VerticalAlignment="Top" Width="77"/>
+            <TextBox x:Name="tvSoTrang" HorizontalAlignment="Left" Margin="259,166,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tvNXB" HorizontalAlignment="Left" Margin="259,266,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+
+    </Grid>
+</Window>
