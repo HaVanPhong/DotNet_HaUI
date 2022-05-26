@@ -20,3 +20,5 @@ D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\refint\DemoKtra2.dl
 D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\DemoKtra2.pdb
 D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\DemoKtra2.genruntimeconfig.cache
 D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\ref\DemoKtra2.dll
+D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\Form2.g.cs
+D:\Study\DotNet\DemoKtra2\DemoKtra2\obj\Debug\net5.0-windows\Form2.baml

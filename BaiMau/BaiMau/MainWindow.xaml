@@ -1,0 +1,49 @@
+﻿<Window x:Class="BaiMau.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaiMau"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+            <MenuItem Header="Hệ thống">
+                <MenuItem Header="Thoát" Click="btnThoat_Click"/>
+            </MenuItem>
+            <MenuItem Header="Quản lý nhân viên">
+                <MenuItem Header="Thêm" Click="btnThem_Click"/>
+                <MenuItem Header="Hiển thị" Click="btnHienThi_Click"/>
+                <MenuItem Header="Xoá" Click="btnXoa_Click"/>
+            </MenuItem>
+        </Menu>
+        <Label Content="Quản lý nhân viên" HorizontalAlignment="Left" Margin="394,30,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label Content="Mã nhân viên:" HorizontalAlignment="Left" Margin="84,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Họ tên:" HorizontalAlignment="Left" Margin="84,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Giới tính:" HorizontalAlignment="Left" Margin="84,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ngày tháng năm sinh:" HorizontalAlignment="Left" Margin="84,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tiền lương ngày:" HorizontalAlignment="Left" Margin="84,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="Số ngày làm việc:" HorizontalAlignment="Left" Margin="84,260,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMaNV" HorizontalAlignment="Left" Margin="226,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26"/>
+        <TextBox x:Name="txtHoTen" HorizontalAlignment="Left" Margin="226,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26"/>
+        <RadioButton x:Name="rbNam" IsChecked="True" Content="Nam" HorizontalAlignment="Left" Margin="226,146,0,0" VerticalAlignment="Top" GroupName="gioitinh"/>
+        <RadioButton x:Name="rbNu" Content="Nữ" HorizontalAlignment="Left" Margin="296,146,0,0" VerticalAlignment="Top" GroupName="gioitinh"/>
+        <DatePicker x:Name="dpNgaySinh" HorizontalAlignment="Left" Margin="226,182,0,0" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="txtTienLuongNgay" HorizontalAlignment="Left" Margin="226,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26"/>
+        <TextBox x:Name="txtNgayLam" HorizontalAlignment="Left" Margin="226,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="26"/>
+        <ListView x:Name="lvNhanVien" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="10,291,10,0" MouseDoubleClick="clickMaNV">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Mã NV" DisplayMemberBinding="{Binding MaNV}" Width="50"/>
+                    <GridViewColumn Header="Họ tên" DisplayMemberBinding="{Binding HoTen}" Width="115"/>
+                    <GridViewColumn Header="Giới tính" DisplayMemberBinding="{Binding GioiTinh}" Width="70"/>
+                    <GridViewColumn Header="Ngày sinh" DisplayMemberBinding="{Binding NgaySinh}" Width="100"/>
+                    <GridViewColumn Header="Lương ngày" DisplayMemberBinding="{Binding Luong}" Width="80"/>
+                    <GridViewColumn Header="Số ngày làm việc" Width="100" DisplayMemberBinding="{Binding SoNgayLam}"/>
+                    <GridViewColumn Header="Tiền lương" DisplayMemberBinding="{Binding TienLuong}" Width="90"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

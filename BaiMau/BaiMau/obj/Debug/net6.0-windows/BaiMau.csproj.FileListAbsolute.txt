@@ -1,0 +1,46 @@
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.exe
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.deps.json
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.runtimeconfig.json
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.dll
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.pdb
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.csproj.AssemblyReference.cache
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\App.g.cs
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau_MarkupCompile.cache
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau_MarkupCompile.lref
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.g.resources
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.AssemblyInfoInputs.cache
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.AssemblyInfo.cs
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.csproj.CoreCompileInputs.cache
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.dll
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\refint\BaiMau.dll
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.pdb
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.genruntimeconfig.cache
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\ref\BaiMau.dll
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\Window2.g.cs
+D:\Nam 3\.NET\Kiem tra 2\BaiMau\BaiMau\obj\Debug\net6.0-windows\Window2.baml
+D:\Study\DotNet\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.exe
+D:\Study\DotNet\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.deps.json
+D:\Study\DotNet\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.runtimeconfig.json
+D:\Study\DotNet\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.dll
+D:\Study\DotNet\BaiMau\BaiMau\bin\Debug\net6.0-windows\BaiMau.pdb
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.csproj.AssemblyReference.cache
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\Window2.g.cs
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\App.g.cs
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau_MarkupCompile.cache
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau_MarkupCompile.lref
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\Window2.baml
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.g.resources
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.AssemblyInfoInputs.cache
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.AssemblyInfo.cs
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.csproj.CoreCompileInputs.cache
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.dll
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\refint\BaiMau.dll
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.pdb
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\BaiMau.genruntimeconfig.cache
+D:\Study\DotNet\BaiMau\BaiMau\obj\Debug\net6.0-windows\ref\BaiMau.dll

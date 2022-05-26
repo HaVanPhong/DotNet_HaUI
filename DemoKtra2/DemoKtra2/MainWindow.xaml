@@ -12,12 +12,12 @@
                 <MenuItem Header="Thoát" Click="Thoat"></MenuItem>
             </MenuItem>
             <MenuItem Header="Quản lý nhân viên" Width="150">
-                <MenuItem Header="Thêm"></MenuItem>
-                <MenuItem Header="Chi tiết"></MenuItem>
+                <MenuItem Header="Thêm" Click="Them"></MenuItem>
+                <MenuItem Header="Chi tiết" Click="chiTiet"></MenuItem>
                 <MenuItem Header="Xóa"></MenuItem>
             </MenuItem>
         </Menu>
-        <Label Content="Quản lý nhân viên" HorizontalAlignment="Left" Height="29" Margin="268,42,0,0" VerticalAlignment="Top" Width="228" FontFamily="Arial Black" FontSize="20"/>
+        <Label Content="Quản lý nhân viên" HorizontalAlignment="Left" Height="36" Margin="268,36,0,0" VerticalAlignment="Top" Width="228" FontFamily="Arial Black" FontSize="20"/>
 
         <Label Content="Mã nhân viên: "  Height="24" VerticalAlignment="Top" Margin="30,82,652,0"/>
         <Label Content="Số ngày làm việc: "  Height="24" VerticalAlignment="Top" Margin="30,227,652,0"/>
@@ -25,14 +25,25 @@
         <Label Content="Ngày tháng năm sinh:"  Height="24" VerticalAlignment="Top" Margin="30,169,639,0"/>
         <Label Content="Giới tính: "  Height="24" VerticalAlignment="Top" Margin="30,140,652,0"/>
         <Label Content="Họ tên: "  Height="24" VerticalAlignment="Top" Margin="30,111,652,0"/>
-        <DataGrid HorizontalAlignment="Center" Height="161" Margin="0,263,0,0" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=7}"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="238,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="238,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="238,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="258"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="238,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
-        <RadioButton Content="Nam" HorizontalAlignment="Left" Height="20" Margin="238,146,0,0" VerticalAlignment="Top" Width="92" GroupName="gt"/>
-        <RadioButton Content="Nữ" HorizontalAlignment="Center" Height="20" Margin="0,146,0,0" VerticalAlignment="Top" Width="92" GroupName="gt"/>
-        <DatePicker HorizontalAlignment="Left" Height="24" Margin="238,169,0,0" VerticalAlignment="Top" Width="229" />
+        <ListView x:Name="lvNhanVien" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="84,313,84,10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Mã NV" DisplayMemberBinding="{Binding maNV}" Width="50"/>
+                    <GridViewColumn Header="Họ tên" DisplayMemberBinding="{Binding hoTen}" Width="115"/>
+                    <GridViewColumn Header="Giới tính" DisplayMemberBinding="{Binding gioiTinh}" Width="70"/>
+                    <GridViewColumn Header="Ngày sinh" DisplayMemberBinding="{Binding ngaySinh}" Width="100"/>
+                    <GridViewColumn Header="Lương ngày" DisplayMemberBinding="{Binding luongNgay}" Width="80"/>
+                    <GridViewColumn Header="Số ngày làm việc" Width="100" DisplayMemberBinding="{Binding soNgayLam}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox x:Name="edtMaNV" HorizontalAlignment="Left" Height="24" Margin="238,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <TextBox x:Name="edtSoNgayLam" HorizontalAlignment="Left" Height="24" Margin="238,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <TextBox x:Name="edtLuongNgay" HorizontalAlignment="Left" Height="24" Margin="238,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="258"/>
+        <TextBox x:Name="edtHoTen" HorizontalAlignment="Left" Height="24" Margin="238,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <RadioButton Name="rdNam" IsChecked="True" Content="Nam" HorizontalAlignment="Left" Height="20" Margin="238,146,0,0" VerticalAlignment="Top" Width="92" GroupName="gt"/>
+        <RadioButton Name="rdNu" Content="Nữ" HorizontalAlignment="Center" Height="20" Margin="0,146,0,0" VerticalAlignment="Top" Width="92" GroupName="gt"/>
+        <DatePicker  DisplayDate="1-1-2022" Name="dob" HorizontalAlignment="Left" Height="24" Margin="238,169,0,0" VerticalAlignment="Top" Width="229" />
 
 
 
